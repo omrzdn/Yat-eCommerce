@@ -1,5 +1,6 @@
-CREATE DATABASE `shop`
-CREATE TABLE `shop`.`users` (
+CREATE DATABASE `shop`;
+USE `shop`;
+CREATE TABLE `users` (
  `UserID` INT(11) NOT NULL AUTO_INCREMENT COMMENT 'To Identify User' ,
  `Username` VARCHAR(255) CHARACTER SET utf8 COLLATE utf8_general_ci NOT NULL COMMENT 'Username To Login' ,
  `Password` VARCHAR(255) CHARACTER SET utf8 COLLATE utf8_general_ci NOT NULL COMMENT 'Password To Login' ,
