@@ -2,8 +2,8 @@
 
 body{
     background-color: #f4f4f4;
+    font-size:16px;
 }
-
 /* end main rules */
 
 /* start Login form */
@@ -30,3 +30,14 @@ body{
 }
 
 /* end Login form */
+/*  start bootstrab edits*/
+.navbar{
+    border-radius: 0;
+    margin-bottom: 0;
+}
+.navbar-brand{
+    font-size: 1em;
+}
+.dropdown-item{
+    color: #f4f4f4;
+}

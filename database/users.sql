@@ -11,3 +11,7 @@ CREATE TABLE `users` (
  `RegStatus` INT(11) NOT NULL DEFAULT '0' COMMENT 'User Approval' ,
  PRIMARY KEY (`UserID`)
  ) ENGINE = InnoDB;
+
+ALTER TABLE `users` ADD UNIQUE(`Username`);
+
+INSERT INTO `users` (`UserID`, `Username`, `Password`, `Email`, `FullName`, `GroupID`, `TrustStatus`, `RegStatus`) VALUES (NULL, 'Osama', SHA1('123123'), 'osama@elzero.info', 'Osama Mohamed', '1', '0', '1');
