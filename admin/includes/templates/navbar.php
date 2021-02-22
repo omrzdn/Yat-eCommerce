@@ -16,7 +16,7 @@
       <li ><a class="dropdown-item" href="#"><?php echo lang('ITEMS')?></a></li>
       <li ><a class="dropdown-item" href="#"> <?php echo lang('STATISTICS')?></a></li>  
       <li ><a class="dropdown-item" href="#"> <?php echo lang('MEMBERS')?></a></li>
-      <li><a class="dropdown-item" href="#"> <?php echo lang('MEMBERS')?></a></li>
+      <li><a class="dropdown-item" href="comments.php"> <?php echo lang('COMMENTS')?></a></li>
       <li><a class="dropdown-item" href="#"> <?php echo lang('LOGS')?></a></li>
       
       
