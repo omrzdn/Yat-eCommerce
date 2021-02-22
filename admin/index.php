@@ -1,6 +1,8 @@
 <?php
     session_start();
     
+    $noNavbar = '';
+
     $pageTitle = 'Login';
     
    if(isset($_SESSION['Username'])){

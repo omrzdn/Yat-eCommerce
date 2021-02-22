@@ -6,6 +6,12 @@ body{
 }
 /* end main rules */
 
+/* Start Navbar */
+
+
+
+/* End Navbar */
+
 /* start Login form */
 
 .login{
@@ -87,7 +93,5 @@ body{
 .latest{
     margin-top: 30px;
 }
-
-
 
 /* End Dashboard Page */
