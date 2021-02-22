@@ -73,6 +73,7 @@
         include 'includes/templates/footer.php';
 
         include $tpl . 'footer.php';
+        
 
    }else{
 
