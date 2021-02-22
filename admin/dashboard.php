@@ -1,6 +1,6 @@
 <?php
    session_start();
-   
+
    if(isset($_SESSION['Username'])){
 
         $pageTitle = 'Dashboard';
@@ -73,13 +73,7 @@
         include 'includes/templates/footer.php';
 
         include $tpl . 'footer.php';
-=======
-    $pageTitle = 'Dashboard';
-
-    include 'init.php';
-    
-     echo"wellcome";
-    include 'includes/templates/footer.php';
+        
 
    }else{
 
