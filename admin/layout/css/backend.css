@@ -30,6 +30,9 @@ body{
 }
 
 /* end Login form */
+
+/*  start bootstrap edits*/
+
 /*  start bootstrab edits*/
 .navbar{
     border-radius: 0;
@@ -41,3 +44,49 @@ body{
 .dropdown-item{
     color: #f4f4f4;
 }
+
+/*  end bootstrap edits*/
+
+/* Start Dashboard Page */
+
+.home-stats .stat{
+    padding: 20px;
+    font-size: 15px;
+    color: #FFF;
+    border-radius: 10px;
+}
+
+.home-stats .stat a{
+    color: #FFF;
+}
+
+.home-stats .stat a:hover{
+    text-decoration: none;
+}
+
+.home-stats .stat span{
+    display: block;
+    font-size: 60px;
+}
+
+.home-stats .st-members{
+    background-color: #3498db;
+}
+
+.home-stats .st-pending{
+    background-color: #e74c3c;
+}
+
+.home-stats .st-items{
+    background-color: #e67e22;
+}
+
+.home-stats .st-comments{
+    background-color: #2ecc71;
+}
+
+.latest{
+    margin-top: 30px;
+}
+
+/* End Dashboard Page */
