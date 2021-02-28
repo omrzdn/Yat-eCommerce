@@ -96,3 +96,92 @@ body{
 }
 
 /* End Dashboard Page */
+
+
+/* start category page */
+
+.categories  .panel-heading {
+    font-weight: bold;
+    color: #595959;
+}
+.categories .panel-body {
+    padding: 0px;
+}
+.categories .option a {
+    color: #888;
+    text-decoration: none;
+}
+.categories .option .active {
+    color: #f00;
+    font-weight: bold;
+}
+.categories .cat {
+    padding: 10px;
+    position: relative;
+    overflow: hidden;
+}
+.categories .cat:hover {
+    background-color: #EEE;
+}
+.categories .cat:hover .hidden-buttons {
+    right: 10px;
+}
+
+.categories .cat .hidden-buttons {
+    -webkit-transition: all .5s ease-in-out;
+    -moz-transition: all .5s ease-in-out;
+    transition: all .5s ease-in-out;
+    position: absolute;
+    top: 14px;
+    right: -250px;
+
+}
+.categories  .cat .hidden-buttons a{
+    margin-right: 5px;
+}
+
+
+.categories .cat h3 {
+  margin: 0 0 10px;
+  font-weight: bold;
+  color: #6A6A6A;
+} 
+.categories .cat .full-view {
+  color: #707070;
+}
+.categories .cat{ 
+   margin-bottom: 20px;
+}
+.categories .cat:last-child {
+  margin-bottom: 0px;
+}
+.categories .cat .spans {
+  color: #fff;
+  padding: 4px 6px;
+  margin-right: 6px;
+  border-radius: 6px;
+}
+.categories .cat .visibility {
+  background-color:#ff6b6b;
+
+}
+.categories .cat .commenting {
+  background-color:#222f3e;
+  
+}
+.categories .cat .advertises {
+  background-color:#d63031 ;
+}
+.categories  .add-category {
+  margin-top: -10px;
+  margin-bottom: 30px;
+}
+.asterisk {
+    position:absolute ;
+    right: 30px;
+    font-size: 30px;
+    top: 4px;
+    color:#D20707;
+}
+
+/* end category page */
