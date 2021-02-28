@@ -1,0 +1,1 @@
+ALTER TABLE `categories` CHANGE `Ordering` `Ordering` INT(11) NULL;

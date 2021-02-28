@@ -9,6 +9,7 @@ function lang ($phrase){
         'ITEMS'       =>'items',
         'STATISTICS'  =>'statistics',
         'MEMBERS'     =>'members',
+        'COMMENTS'    =>'Comments',
         'LOGS'        =>'logs',
         
     );
