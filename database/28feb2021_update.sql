@@ -1,0 +1,2 @@
+ALTER TABLE `items` CHANGE `Add-Date` `Add_Date` DATE NOT NULL;
+ALTER TABLE `items` ADD `Approve` TINYINT NOT NULL DEFAULT '0' AFTER `Rating`;

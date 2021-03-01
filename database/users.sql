@@ -14,4 +14,4 @@ CREATE TABLE `users` (
 
 ALTER TABLE `users` ADD UNIQUE(`Username`);
 
-INSERT INTO `users` (`UserID`, `Username`, `Password`, `Email`, `FullName`, `GroupID`, `TrustStatus`, `RegStatus`) VALUES (NULL, 'Osama', SHA1('123123'), 'osama@elzero.info', 'Osama Mohamed', '1', '0', '1');
+INSERT INTO `users` (`UserID`, `Username`, `Password`, `Email`, `FullName`, `GroupID`, `TrustStatus`, `RegStatus`) VALUES (NULL, 'admin', SHA1('admin'), 'admin@admin.info', 'Admin', '1', '0', '1');

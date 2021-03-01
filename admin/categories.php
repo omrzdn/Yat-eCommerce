@@ -30,11 +30,11 @@ if (isset($_SESSION['Username'])) {
                         <a href="?sort=ASC" class= <?php if ($sort=='ASC'){echo "active";}?>>Asc</a> |
                         <a href="?sort=DESC"class= <?php if ($sort=='DESC'){echo "active";}?>>Desc</a>
                         ]
-                        <i class="fa fa-eye"></i> View :
+                        <!-- <i class="fa fa-eye"></i> View :
                         [
                         <span class="active" data-view="full" >Full</span> |
                         <span class="active" data-view="classic" >Classic</span>
-                        ]
+                        ] -->
                    </div>
                     </div>
                     <a href="categories.php?do=add"  class=" add-category btn btn-primary my-3"> <i class="fa fa-plus"></i> Add New Category</a>

@@ -185,3 +185,15 @@ body{
 }
 
 /* end category page */
+/* start manage items page */
+.main-table tr:first-child td{
+    background-color: #333;
+    color:#fff;
+    font-size: 8px;
+
+    
+   }
+
+
+
+   /* end manage items page  */
