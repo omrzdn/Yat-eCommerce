@@ -60,6 +60,19 @@ body{
     font-size: 15px;
     color: #FFF;
     border-radius: 10px;
+    position :relative;
+    overflow: hidden;
+}
+
+.home-stats .stat i{
+    position: absolute;
+    font-size: 80px;
+    top: 35px;
+    left: 30px;
+}
+
+.home-stats .stat .info{
+    float: right;
 }
 
 .home-stats .stat a{
@@ -93,6 +106,20 @@ body{
 
 .latest{
     margin-top: 30px;
+}
+
+.latest .toggle-info{
+    color: #999;
+    cursor: pointer;
+}
+
+.latest .toggle-info:hover{
+    color: #444;
+}
+
+.latest-users li{
+    padding: 10px;
+    background-color: #EFEF;
 }
 
 /* End Dashboard Page */
@@ -185,3 +212,15 @@ body{
 }
 
 /* end category page */
+/* start manage items page */
+.main-table tr:first-child td{
+    background-color: #333;
+    color:#fff;
+    font-size: 8px;
+
+    
+   }
+
+
+
+   /* end manage items page  */

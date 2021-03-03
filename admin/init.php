@@ -16,6 +16,7 @@ include $lan.'english.php';
 include 'connect.php';
 
 include $tpl.'header.php';
+
 if(!isset($noNavbar)){
   include $tpl.'navbar.php';
 }
