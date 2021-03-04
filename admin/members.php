@@ -171,7 +171,11 @@ if(isset($_SESSION['Username'])){
               <!-- End Submit Field -->
           </form>
       </div>
-<?php
+
+
+
+
+
 
     }elseif($do == 'insert') { //insert page
 
@@ -306,7 +310,11 @@ if(isset($_SESSION['Username'])){
 // if there is such an id show the form
      if($stmt->rowCount() > 0){
 
+
 ?>
+
+    ?>
+
     <h1 class="text-center">Edit Member</h1>
 
     <div class="container">
@@ -440,7 +448,9 @@ if(isset($_SESSION['Username'])){
 
         <h1 class="text-center">Activate Member</h1>
         <div class="container">
+
           <?php
+
               //Check If Get Request UserID is Numeric & Get The Integer Value Of it
 
             $userID = isset($_GET['userID']) && is_numeric($_GET['userID']) ? intval($_GET['userID']) : 0;
